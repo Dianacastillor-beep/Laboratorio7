@@ -14,7 +14,7 @@ private:
     int mesesInactivo;
 
 public:
-    // 🔥 Constructor predeterminado agregado
+    //  Constructor predeterminado agregado
     CuentaBancaria() {
         titular = "";
         saldo = 0;
@@ -23,7 +23,7 @@ public:
         mesesInactivo = 0;
     }
 
-    // 🔥 Constructor personalizado
+    //  Constructor personalizado
     CuentaBancaria(string tit, double saldoInicial) {
         titular = tit;
         saldo = saldoInicial;
